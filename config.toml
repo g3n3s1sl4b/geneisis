@@ -1,9 +1,9 @@
-baseURL = "https://stop-dolg.pro"
+baseURL = "https://генезис.ооо"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "ru"
 # language code
 languageCode = "ru"
-title = "Правое Дело : Блог"
+title = "Генезис : Бизнес и Инвестиции"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -18,7 +18,7 @@ theme = "LoveIt"
     name = "Статьи"
     url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = "Правое Дело"
+    title = "Бизнес и Инвестиции"
     weight = 1
   [[menu.main]]
     identifier = "tags"
@@ -41,9 +41,9 @@ theme = "LoveIt"
   #  LoveIt theme version
   version = "0.2.X"
   # site description
-  description = "Как списать долги ?"
+  description = "Бизнес и Инвестиции"
   # site keywords
-  keywords = ["Банкротство"]
+  keywords = ["бизнкес","капитал","инвестиции","биткоин","недвижимость"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "light"
   # public git repo url only then enableGitInfo is true
@@ -59,7 +59,7 @@ theme = "LoveIt"
   #  App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Правое Дело"
+    title = "Генезис"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -79,7 +79,7 @@ theme = "LoveIt"
     # max index length of the chunked content
     contentLength = 4000
     # placeholder of the search bar
-    placeholder = ""
+    placeholder = "Поиск ..."
     #  max number of results length
     maxResultLength = 10
     #  snippet length of the result
@@ -106,7 +106,7 @@ theme = "LoveIt"
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "# Правое Дело | Блог"
+      pre = "Бизнес / Инвестиции"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       #  whether to use typeit animation for title name
@@ -116,7 +116,7 @@ theme = "LoveIt"
   [params.footer]
     enable = true
     #  Custom content (HTML format is supported)
-    custom = '[ Бесплатная Консультация Юриста : +7 909 77 99 00 3 ]'
+    custom = '[ НЕ ФИНАНСОВЫЙ СОВЕТ ]'
     #  whether to show Hugo and theme info
     hugo = false
     #  whether to show copyright info
@@ -154,21 +154,21 @@ theme = "LoveIt"
     rss = 10
     # Home page profile
     [params.home.profile]
-      enable = true
+      enable = false
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = "info@stop-dolg.pro"
+      gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "about/avatar.gif"
+      avatarURL = ""
       #  title shown in home page (HTML format is supported)
-      title = "[ Правое Дело ]"
+      title = "[ ГЕНЕЗИС ]"
       # subtitle shown in home page
-      subtitle = " Списание Долгов / Рефинансирование Задолжностей "
+      subtitle = "Бизнес / Капитал / Инвестиции"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
       social = true
       #  disclaimer (HTML format is supported)
-      disclaimer = "#Кредит, #Займ, #Ипотека"
+      disclaimer = "#бизнес, #капитал, #инвестиции, #биткоин, #недвижимость" 
     # Home page posts
     [params.home.posts]
       enable = true
@@ -180,7 +180,7 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "g3n3s1sl4b"
+    GitHub = ""
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -242,8 +242,8 @@ theme = "LoveIt"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "info@stop-dolg.pro"
-    RSS = true #
+    Email = "mail@генезис.ооо"
+    RSS = false #
 
   #  Page config
   [params.page]
@@ -520,9 +520,9 @@ theme = "LoveIt"
 
 # Author config
 [author]
-  name = "Правое Дело"
-  email = "info@stop-dolg.pro"
-  link = ""
+  name = "ООО ГЕНЕЗИС"
+  email = "mail@генезис.ооо"
+  link = "https://генезис.ооо"
 
 # Sitemap config
 [sitemap]
