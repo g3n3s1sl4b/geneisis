@@ -39,7 +39,7 @@ theme = "LoveIt"
 
 [params]
   #  LoveIt theme version
-  version = "0.2.X"
+  version = "0.62.X"
   # site description
   description = "Бизнес и Инвестиции"
   # site keywords
@@ -356,8 +356,8 @@ theme = "LoveIt"
       # Valine comment config
       [params.page.comment.valine]
         enable = true
-        appId = "Jzgrtb2NlHpDHEHLaiNzLEqI-MdYXbMMI"
-        appKey = "sdcD4IJ796GH24UV4uRiMDbN"
+        appId = ""
+        appKey = ""
         placeholder = ""
         avatar = "mp"
         meta = ""
@@ -384,12 +384,12 @@ theme = "LoveIt"
       #  Telegram comments config
       [params.page.comment.telegram]
         enable = false
-        siteID = ""
+        siteID = "UzrqWeRT"
         limit = 5
         height = ""
         color = ""
         colorful = true
-        dislikes = false
+        dislikes = true
         outlined = false
       #  Commento comment config
       [params.page.comment.commento]
