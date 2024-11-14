@@ -1,89 +1,140 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="ru">
+    <head>
+	<meta name="generator" content="Hugo 0.124.1">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Генезис : Бизнес и Инвестиции</title><meta name="Description" content="Бизнес и Инвестиции"><meta property="og:title" content="Генезис : Бизнес и Инвестиции" />
+<meta property="og:description" content="Бизнес и Инвестиции" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://%D0%B3%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81.%D0%BE%D0%BE%D0%BE/" /><meta property="og:image" content="https://%D0%B3%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81.%D0%BE%D0%BE%D0%BE/" /><meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://%D0%B3%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81.%D0%BE%D0%BE%D0%BE/" /><meta name="twitter:title" content="Генезис : Бизнес и Инвестиции"/>
+<meta name="twitter:description" content="Бизнес и Инвестиции"/>
+<meta name="application-name" content="Генезис">
+<meta name="apple-mobile-web-app-title" content="Генезис"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://%D0%B3%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81.%D0%BE%D0%BE%D0%BE/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="Генезис : Бизнес и Инвестиции">
+    <link rel="feed" href="/index.xml" type="application/rss+xml" title="Генезис : Бизнес и Инвестиции"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https:\/\/%D0%B3%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81.%D0%BE%D0%BE%D0%BE\/","inLanguage": "ru","author": {
+                "@type": "Person",
+                "name": "ООО ГЕНЕЗИС"
+            },"description": "Бизнес и Инвестиции","name": "Генезис : Бизнес и Инвестиции"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('light' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'light' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/11.0.2/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/11.0.2/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/11.0.2/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Генезис : Бизнес и Инвестиции"><span class="header-title-pre">Бизнес / Инвестиции</span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="Бизнес и Инвестиции"> Статьи </a><a class="menu-item" href="/tags/"> Тэги </a><a class="menu-item" href="/categories/"> Категории </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Поиск ..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Поиск">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Очистить">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Генезис : Бизнес и Инвестиции"><span class="header-title-pre">Бизнес / Инвестиции</span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Поиск ..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Поиск">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Очистить">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Отменить
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="Бизнес и Инвестиции">Статьи</a><a class="menu-item" href="/tags/" title="">Тэги</a><a class="menu-item" href="/categories/" title="">Категории</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="page home" data-home="posts"><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/bank/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/bank/featured-image-preview.png"
+        data-srcset="/bank/featured-image-preview.png, /bank/featured-image-preview.png 1.5x, /bank/featured-image-preview.png 2x"
+        data-sizes="auto"
+        alt="/bank/featured-image-preview.png"
+        title="/bank/featured-image-preview.png" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/bank/">Повышенная ставка ЦБ.</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://%d0%b3%d0%b5%d0%bd%d0%b5%d0%b7%d0%b8%d1%81.%d0%be%d0%be%d0%be" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Генезис</a>
+</span>&nbsp;<span class="post-publish">Опубликовано <time datetime="2024-11-13">2024-11-13</time></span>&nbsp;<span class="post-category">включен в <a href="/categories/%D0%B1%D0%B0%D0%BD%D0%BA/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Банк</a></span></div><div class="content">Чего ждать бизнесу &hellip;</div><div class="post-footer">
+        <a href="/bank/">Читать больше</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%D1%8D%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D0%BA%D0%B0/">Экономика</a>,&nbsp;<a href="/tags/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/">Бизнес</a>,&nbsp;<a href="/tags/%D1%86%D0%B1/">ЦБ</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><div class="featured-image-preview">
+            <a href="/ooo/"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/ooo/featured-image-preview.png"
+        data-srcset="/ooo/featured-image-preview.png, /ooo/featured-image-preview.png 1.5x, /ooo/featured-image-preview.png 2x"
+        data-sizes="auto"
+        alt="/ooo/featured-image-preview.png"
+        title="/ooo/featured-image-preview.png" /></a>
+        </div><h1 class="single-title" itemprop="name headline">
+        <a href="/ooo/">Разница между ООО и ИП: что выбрать для бизнеса?</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://%d0%b3%d0%b5%d0%bd%d0%b5%d0%b7%d0%b8%d1%81.%d0%be%d0%be%d0%be" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Генезис</a>
+</span>&nbsp;<span class="post-publish">Опубликовано <time datetime="2024-11-13">2024-11-13</time></span>&nbsp;<span class="post-category">включен в <a href="/categories/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Бизнес</a>&nbsp;<a href="/categories/%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B0%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D1%8B/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Юридические Аспекты</a></span></div><div class="content">Ключевые отличия между ООО и ИП &hellip;</div><div class="post-footer">
+        <a href="/ooo/">Читать больше</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%D0%BE%D0%BE%D0%BE/">ООО</a>,&nbsp;<a href="/tags/%D0%B8%D0%BF/">ИП</a>,&nbsp;<a href="/tags/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/">Бизнес</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/nalog/">Налоги, которые платит ООО</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://%d0%b3%d0%b5%d0%bd%d0%b5%d0%b7%d0%b8%d1%81.%d0%be%d0%be%d0%be" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>ООО ГЕНЕЗИС</a>
+</span>&nbsp;<span class="post-publish">Опубликовано <time datetime="2023-10-01">2023-10-01</time></span></div><div class="content">Введение Общество с ограниченной ответственностью (ООО) является одной из самых популярных форм ведения бизнеса в России. Однако для успешной деятельности необходимо учитывать налоговые обязательства. В этой статье мы рассмотрим основные налоги, которые платит ООО, а также особенности их расчета и уплаты.
+Основные налоги для ООО 1. Налог на прибыль Описание: Налог на прибыль организаций является основным налогом, который уплачивают все юридические лица, включая ООО.
+Ставка: Общая ставка налога на прибыль составляет 20%, но в некоторых случаях она может быть снижена.</div><div class="post-footer">
+        <a href="/nalog/">Читать больше</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8/">Налоги</a>,&nbsp;<a href="/tags/%D0%BE%D0%BE%D0%BE/">ООО</a>,&nbsp;<a href="/tags/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/">Бизнес</a>,&nbsp;<a href="/tags/%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5/">Налогообложение</a></div></div>
+</article></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">[ НЕ ФИНАНСОВЫЙ СОВЕТ ]</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://%d0%b3%d0%b5%d0%bd%d0%b5%d0%b7%d0%b8%d1%81.%d0%be%d0%be%d0%be" target="_blank">ООО ГЕНЕЗИС</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Наверх">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Посмотреть комментарии">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.ru.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Копировать в буфер обмена","maxShownLines":10},"cookieconsent":{"content":{"dismiss":"Согласен","link":"Учить больше","message":"Этот сайт использует Cookies для улучшения вашего опыта."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"ru","maxResultLength":10,"noResultsFound":"Результатов не найдено","snippetLength":30,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
