@@ -1,9 +1,67 @@
 ---
-title: "Налоги, которые платит ООО"
-date: 2023-10-01
-tags: ["налоги", "ООО", "бизнес", "налогообложение"]
----
+title: "Налоги, которые платит ООО."
+subtitle: ""
+date: 2024-11-13T17:20:01+02:00
+draft: false
+author: "Генезис"
+authorLink: ""
+description: ""
+license: "GPL"
+images: ['']
+summary: "Чего ждать бизнесу ..."
 
+tags: ["налоги", "бизнес", "ООО"]
+categories: [бизнес]
+
+resources:
+- name: ""
+  src: ""
+- name: ""
+  src: ""
+
+hiddenFromHomePage: false
+hiddenFromSearch: false
+twemoji: false
+lightgallery: true
+ruby: true
+fraction: true
+fontawesome: true
+linkToMarkdown: true
+rssFullText: false
+
+toc:
+  enable: true
+  auto: true
+code:
+  copy: true
+  # ...
+math:
+  enable: true
+  # ...
+mapbox:
+  accessToken: ""
+  # ...
+share:
+  enable: true
+  # ...
+comment:
+  enable: true
+  # ...
+library:
+  css:
+    # someCSS = "some.css"
+    # located in "assets/"
+    # Or
+    # someCSS = "https://cdn.example.com/some.css"
+  js:
+    # someJS = "some.js"
+    # located in "assets/"
+    # Or
+    # someJS = "https://cdn.example.com/some.js"
+seo:
+  images: []
+  # ...
+---
 ## Введение
 
 Общество с ограниченной ответственностью (ООО) является одной из самых популярных форм ведения бизнеса в России. Однако для успешной деятельности необходимо учитывать налоговые обязательства. В этой статье мы рассмотрим основные налоги, которые платит ООО, а также особенности их расчета и уплаты.

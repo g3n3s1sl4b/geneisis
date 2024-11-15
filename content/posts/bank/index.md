@@ -33,10 +33,10 @@ toc:
   enable: true
   auto: true
 code:
-  copy: true
+  copy: false
   # ...
 math:
-  enable: true
+  enable: false
   # ...
 mapbox:
   accessToken: ""
@@ -45,7 +45,7 @@ share:
   enable: true
   # ...
 comment:
-  enable: true
+  enable: false
   # ...
 library:
   css:
