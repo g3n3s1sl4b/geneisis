@@ -1,5 +1,5 @@
 ---
-title: "Разница между ООО и ИП: что выбрать для бизнеса?"
+title: "Разница между ООО и ИП."
 subtitle: ""
 date: 2024-11-13T17:20:01+02:00
 draft: false
@@ -14,10 +14,10 @@ tags: ["ООО", "ИП", "бизнес"]
 categories: ["бизнес","юридические аспекты"]
 
 resources:
-- name: ""
-  src: ""
-- name: ""
-  src: ""
+- name: featured-image
+  src: featured-image.jpg
+- name: featured-image-preview
+  src: featured-image-preview.jpg
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

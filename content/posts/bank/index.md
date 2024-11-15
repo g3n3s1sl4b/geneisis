@@ -14,10 +14,10 @@ tags: ["экономика", "бизнес", "ЦБ"]
 categories: [банк]
 
 resources:
-- name: ""
-  src: ""
-- name: ""
-  src: ""
+- name: featured-image
+  src: featured-image.jpg
+- name: featured-image-preview
+  src: featured-image-preview.jpg
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
