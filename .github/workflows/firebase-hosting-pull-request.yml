@@ -27,3 +27,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PVZ_OZON }}
           projectId: pvz-ozon
+          channelId: 'pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}'
